@@ -94,4 +94,4 @@ def create_me_stem(input_path, output_me, device, hf_token) :
     
     separate_speakers(vocals, sample_rate, "speaker_vocal", hf_token)
     
-if __name__ == "__main__" : create_me_stem(input="", output_me="M_and_E.wav", device="mps", hf_token="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")
+if __name__ == "__main__" : create_me_stem(input="", output_me="M_and_E.wav", device="mps", hf_token="YOUR_HUGGING_FACE_TOKEN")
